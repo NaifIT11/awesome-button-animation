@@ -22,7 +22,7 @@ body{
 }
 
 .anBg{
-    animation: bgAnimation 2s infinite ease-out;
+    animation: bgAnimation 0.2s infinite ease-out;
 }
 
 @keyframes bgAnimation {
