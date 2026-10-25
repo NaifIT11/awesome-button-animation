@@ -11,6 +11,7 @@
 body{
     padding: 5rem;
 }
+
 .mainBtn{
     border: none;
     padding: 0.925rem;
@@ -18,5 +19,17 @@ body{
     font-weight: 900;
     color: #fff;
     border-radius: 0.125rem;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+.anBg{
+    animation: bgAnimation 2s infinite ease-out;
+}
+
+@keyframes bgAnimation {
+    from{
+            background: linear-gradient(-20deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    }
+    to {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    }
 }
