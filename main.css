@@ -26,10 +26,16 @@ body{
 }
 
 @keyframes bgAnimation {
-    from{
+    20%{
             background: linear-gradient(-20deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     }
-    to {
+    40% {
             background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    }
+    80%{
+            background: linear-gradient(-75deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    }
+    100%{
+            background: linear-gradient(-95deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     }
 }
